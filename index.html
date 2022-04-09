@@ -65,6 +65,71 @@
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
+          <p class="text-form">Оставьте свои данные, мы вам перезвоним</p>
+          <form class="contact-form">
+            <label class="contact-form-field">
+              <span class="text-form-field">Имя</span>
+              <span class="contact-form-input-wraper">
+                <input
+                  name="user_name"
+                  class="contact-form-input"
+                  type="text"
+                />
+                <svg class="contact-form-icon" width="18" height="18">
+                  <use href="./images/symbol-defs.svg#icon-email-black"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="contact-form-field">
+              <span class="text-form-field">Телефон</span>
+              <span class="contact-form-input-wraper">
+                <input
+                  name="user_phone"
+                  class="contact-form-input"
+                  type="tel"
+                />
+                <svg class="contact-form-icon" width="18" height="18">
+                  <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="contact-form-field">
+              <span class="text-form-field">Почта</span>
+              <span class="contact-form-input-wraper">
+                <input
+                  name="user_mail"
+                  class="contact-form-input"
+                  type="mail"
+                />
+                <svg class="contact-form-icon" width="18" height="18">
+                  <use href="./images/symbol-defs.svg#icon-person-black"></use>
+                </svg>
+              </span>
+            </label>
+            <label class="contact-form-field">
+              <span class="text-form-field">Комментарий</span>
+              <textarea
+                name="user_massage"
+                class="contact-form-massage"
+                placeholder="Введите текст"
+              ></textarea>
+            </label>
+            <div class="contact-form-checkbox-wraper">
+              <input
+                name="acept_policy"
+                type="text"
+                class="contact-form-checkbox"
+                required
+              />
+              <label for="" class="contact-form-checkbox-label"
+                >Соглашаюсь с рассылкой и принимаю
+                <a href="">Условия договора</a>
+              </label>
+            </div>
+            <button type="submit" class="contact-form-submit-btn">
+              Отправить
+            </button>
+          </form>
         </div>
       </div>
       <!-- Особенности в работах-->
